@@ -3,6 +3,9 @@
 - 🇨🇿 Funguje s Certbotem (testováno) a pravděpodobně i s dalšími generátory SSL certifikátů
 - 🇬🇧 Works with Certbot (tested) and probably other SSL certificate generators
 
+## 🇬🇧 Alternative? / 🇨🇿 Alternativa?
+https://github.com/alexzorin/certbot-dns-multi
+
 ## 🇬🇧 Why to use WAPI? / 🇨🇿 Proč používat WAPI?
 - 🇨🇿 automatické ověřování (namísto ručního nastavování záznamů TXT) potřebné pro wildcard SSL certifikáty
 - 🇬🇧 automated verification (instead of manual setting TXT records) needed for wildcard SSL certificates
@@ -13,7 +16,6 @@
 ```bash
 git clone https://github.com/maskalix/wedos-api/
 ```
-
 ## 🇬🇧 Usage / 🇨🇿 Použití
 ```bash
 certbot certonly --manual \
